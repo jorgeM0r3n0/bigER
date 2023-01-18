@@ -25,13 +25,9 @@
                 "--disable-extensions",
                 "${workspaceFolder}/examples",
 				"--extensionDevelopmentPath=${workspaceFolder}/extension",
-				"--extensionTestsPath=${workspaceFolder}/extension/dist/test/suite/index"
+				"--extensionTestsPath=${workspaceFolder}/extension/out/test/suite/index"
 			],
-            "sourceMaps": true,
-			"outFiles": [
-                "${workspaceFolder}/extension/pack/*.js",
-                "${workspaceFolder}/extension/dist/test/**/*.js"
-            ]
+            "sourceMaps": true
 		}
     ]
 }

@@ -322,7 +322,9 @@
 		"clean": "rimraf out",
 		"lint": "eslint \"./src/**\"",
 		"package": "vsce package --yarn",
-		"test": "tsc -p ./ && node ./out/test/runTest.js",
+		"test": "yarn run test-build && yarn run test-run",
+		"test-build": "tsc -p ./",
+		"test-run": "node ./out/test/runTest.js",
 		"watch": "webpack --mode=development --watch"
 	}
 }

@@ -61,7 +61,7 @@ The Java-based language server is realized with [Xtext](https://www.eclipse.org/
 <!-- USAGE -->
 ## Usage
 
-Download and install the extension from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=BIGModelingTools.erdiagram). Information regarding installation, can be found in the [Extension Marketplace Guide](https://code.visualstudio.com/docs/editor/extension-marketplace) of VS Code.
+Download and install the extension from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=BIGModelingTools.erdiagram), see the [Installation](https://github.com/borkdominik/bigER/wiki/Installation) page in the Wiki for instructions.
 
 **New ER Model**
 
@@ -71,7 +71,6 @@ After installation, ER models can be created in `.erd` files. Use the `New Sampl
 erdiagram Model
 
 notation=default
-generate=off
 
 entity A {
    id key
@@ -121,7 +120,7 @@ The code is split into a **client side** (extension with webview) and a **server
 <!-- ISSUES -->
 ## Issues
 
-Project issues are managed on GitHub, see [Open Issues](https://github.com/borkdominik/bigER/blob/main/docs/ISSUES.md) for the currently tracked issues. Do not hesitate to report a bug or request a feature through the offered [Issue Templates](https://github.com/borkdominik/bigER/issues/new/choose). For questions, simply use a blank issue.
+Project issues are managed on GitHub, see [Open Issues](https://github.com/borkdominik/bigER/issues) for the currently tracked issues. Do not hesitate to report a bug or request a feature through the offered [Issue Templates](https://github.com/borkdominik/bigER/issues/new/choose). For questions, simply use a blank issue.
 
 
 <!-- CONTRIBUTING -->
@@ -133,6 +132,7 @@ Contributions to the project are always welcome! See the [Contribution Guideline
 - [Philipp-Lorenz Glaser](https://github.com/plglaser) (main developer)   
 - [Georg Hammerschmied](https://github.com/SchmiedHammer) (multi-notation support)
 - [Hnatiuk Vladyslav](https://github.com/Aksem) (improved edge router)
+- [Christoph Lauscher](https://github.com/christoph-lauscher) (SQL import/export)
 - [Dominik Bork](https://github.com/borkdominik)
 
 
